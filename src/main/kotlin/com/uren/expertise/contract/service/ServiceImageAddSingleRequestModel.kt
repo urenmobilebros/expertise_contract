@@ -1,6 +1,6 @@
 package com.uren.expertise.contract.service
 
-class ServiceImageAddMultiRequestModel{
+class ServiceImageAddSingleRequestModel{
     var serviceId: Int? = null
-    var urlList: List<String>? = null
+    var url: String? = null
 }

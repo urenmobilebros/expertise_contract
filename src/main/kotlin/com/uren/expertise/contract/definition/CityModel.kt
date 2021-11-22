@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull
 
 class CityModel{
 
-    val id: Long? = null
+    var id: Long? = null
     var name: String? = null
     var cityCode: String? = null
     var countryTwoLetterCode: String? = null

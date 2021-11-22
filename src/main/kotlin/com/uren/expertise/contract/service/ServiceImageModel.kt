@@ -1,16 +1,15 @@
 package com.uren.expertise.contract.service
 
 import java.util.*
+import javax.persistence.Column
+import javax.persistence.Temporal
+import javax.persistence.TemporalType
 
-class ServiceCompetentModel{
+class ServiceImageModel{
 
     var id: Long? = null
-    var email: String? = null
-    var name: String? = null
-    var surname: String? = null
-    var phoneNumber: String? = null
-    var createDate: Date? = Calendar.getInstance().time
+    var serviceId: Int? = null
+    var url: String? = null
+    var createDate: Date? = null
     var updateDate: Date? = null
-    var userId: String? = null
-    var nationalityId: String? = null
 }
