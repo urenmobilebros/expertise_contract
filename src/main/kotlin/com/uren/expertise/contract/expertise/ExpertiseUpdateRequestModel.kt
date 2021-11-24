@@ -1,6 +1,6 @@
 package com.uren.expertise.contract.expertise
 
-class ExpertiseAddRequestModel{
+class ExpertiseUpdateRequestModel{
 
     var name: String? = null
     var phoneNumber: String? = null
