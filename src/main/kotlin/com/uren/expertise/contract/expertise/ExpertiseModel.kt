@@ -22,6 +22,4 @@ class ExpertiseModel{
     var address: String? = null
     var createDate: Date? = null
     var updateDate: Date? = null
-    var groupId: Int? = null
-    var groupIncludeApproved: Boolean? = null
 }

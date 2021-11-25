@@ -6,9 +6,7 @@ import javax.persistence.Column
 import javax.persistence.Temporal
 import javax.persistence.TemporalType
 
-class ExpertiseStationAddRequestModel{
-
-    var expertiseId: Int? = null
+class ExpertiseStationUpdateRequestModel{
     var stationTypeId: Int? = null
     var description: String? = null
     var amount: BigDecimal? = null
