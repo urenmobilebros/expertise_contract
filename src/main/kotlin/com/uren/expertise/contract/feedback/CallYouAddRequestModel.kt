@@ -1,13 +1,12 @@
 package com.uren.expertise.contract.feedback
 
-import java.util.*
-
+import com.uren.expertise.contract.enums.CallYouTypeEnum
 
 class CallYouAddRequestModel{
 
     var email: String? = null
     var nameSurname: String? = null
     var phoneNumber: String? = null
-    var callYouTypeId: Int? = null
+    var callYouTypeEnum: CallYouTypeEnum? = null
     var emailSmsPermission: Boolean? = null
 }
