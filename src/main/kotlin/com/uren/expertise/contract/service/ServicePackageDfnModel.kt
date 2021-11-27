@@ -1,0 +1,18 @@
+package com.uren.expertise.contract.service
+
+import com.uren.expertise.contract.enums.ServiceTypeEnum
+import java.math.BigDecimal
+import java.util.*
+import javax.persistence.Column
+import javax.persistence.Temporal
+import javax.persistence.TemporalType
+
+class ServicePackageDfnAddRequestModel{
+    var serviceType: ServiceTypeEnum? = null
+    var competentId: Int? = null
+    var name: String? = null
+    var description: String? = null
+    var amount: BigDecimal? = null
+    var discount: BigDecimal? = null
+    var discountType: Int? = null
+}
