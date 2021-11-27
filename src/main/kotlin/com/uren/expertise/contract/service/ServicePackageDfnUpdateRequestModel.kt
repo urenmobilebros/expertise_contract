@@ -9,7 +9,7 @@ import javax.persistence.Temporal
 import javax.persistence.TemporalType
 
 class ServicePackageDfnUpdateRequestModel{
-    val id: Long? = null
+    var id: Long? = null
     var name: String? = null
     var description: String? = null
     var amount: BigDecimal? = null
