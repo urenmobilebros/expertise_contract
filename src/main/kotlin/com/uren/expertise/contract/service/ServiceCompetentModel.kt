@@ -13,4 +13,5 @@ class ServiceCompetentModel{
     var updateDate: Date? = null
     var userId: String? = null
     var nationalityId: String? = null
+    var result: Int? = ServiceCompetentResultEnum.USER_NOT_FOUND.value
 }
